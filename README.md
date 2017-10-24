@@ -2,7 +2,7 @@
 
 UPYUN's open source software for OpenResty development.
 
-![](http://iresty.b0.upaiyun.com/assets/upyun-resty.png_/fw/200)
+![](http://iresty.b0.upaiyun.com/assets/upyun-resty.png_/fw/400)
 
 # Table of Contents
 
