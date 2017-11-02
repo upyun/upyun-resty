@@ -24,6 +24,7 @@ UPYUN's open source software for OpenResty development.
     * [redis-ratelimit](#redis-ratelimit)
     * [17monip](#17monip)
     * [sync](#sync)
+    * [ctxdump](#ctxdump)
 * [Work at UPYUN](#work-at-upyun)
 
 # What is UPYUN
@@ -131,6 +132,16 @@ ipip.net (predecessor is 17momip) ipdb parsing library for OpenResty / ngx_lua. 
 This lua-resty library help you to synchronize data(from redis, mysql, memcached and so on) based on the version changes.
 
 It will check the freshness by comparing the version cached by itself(stored in shared memory) and the one from your external suits, data will be updated when the cached one is stale or for the first time.
+
+### ctxdump
+
+- github: https://github.com/tokers/lua-resty-ctxdump
+
+`ngx.ctx` is a magic table provided by ngx_lua, it can be used to store per-request Lua context data, however the lifetime is limited to the current location.
+
+See this [issue](https://github.com/openresty/lua-nginx-module/issues/1057) for the details.
+
+This lua-resty library can help you to bypass this limitation, i.e. it stashes and applies the old `ngx.ctx` for avoiding being destoried after Nginx internal redirect happens.
 
 # Work at UPYUN
 
