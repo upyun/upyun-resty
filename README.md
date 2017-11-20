@@ -25,6 +25,8 @@ UPYUN's open source software for OpenResty development.
     * [17monip](#17monip)
     * [sync](#sync)
     * [ctxdump](#ctxdump)
+    * [consul](#consul)
+    * [load](#load)
 * [Work at UPYUN](#work-at-upyun)
 
 # What is UPYUN
@@ -142,6 +144,19 @@ It will check the freshness by comparing the version cached by itself(stored in 
 See this [issue](https://github.com/openresty/lua-nginx-module/issues/1057) for the details.
 
 This lua-resty library can help you to bypass this limitation, i.e. it stashes and applies the old `ngx.ctx` for avoiding being destoried after Nginx internal redirect happens.
+
+### consul
+
+- github: https://github.com/huangnauh/lua-resty-consul
+
+This Lua library can help OpenResty/ngx_lua users to load config from consul.
+
+### load
+
+- github: https://github.com/huangnauh/lua-resty-load
+
+This Lua library can help OpenResty/ngx_lua users to dynamically load lua files/scripts.
+
 
 # Work at UPYUN
 
