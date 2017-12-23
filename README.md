@@ -73,7 +73,11 @@ OpenResty is a full-fledged web platform by integrating the standard Nginx core,
 
 - OpenResty TCP 服务代理和动态路由 ([Slide](https://iresty.b0.upaiyun.com/HangzhouMeetup201712/OpenResty%20TCP%20%E6%9C%8D%E5%8A%A1%E4%BB%A3%E7%90%86%E5%92%8C%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1.pdf)) - @huangnauh
 
+![](https://iresty.b0.upaiyun.com/assets/OpenResty%20TCP%20%E6%9C%8D%E5%8A%A1%E4%BB%A3%E7%90%86%E5%92%8C%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1.png_/fw/400)
+
 - OpenResty 项目性能优化实践 ([Slide](https://iresty.b0.upaiyun.com/HangzhouMeetup201712/OpenResty%20%E9%A1%B9%E7%9B%AE%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5.pdf)) - @tokers
+
+![](https://iresty.b0.upaiyun.com/assets/OpenResty%20%E9%A1%B9%E7%9B%AE%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5.png_/fw/400)
 
 # Projects
 
