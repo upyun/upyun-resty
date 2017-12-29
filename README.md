@@ -28,6 +28,11 @@ UPYUN's open source software for OpenResty development.
     * [ctxdump](#ctxdump)
     * [consul](#consul)
     * [load](#load)
+  * [Community Contributions](#community-contributions)
+    * [slice filter and If-Range requests](#slice-filter-and-if-range-requests)
+    * [autoindex module and request body](#autoindex-module-and-request-body)
+    * [ngx.req.raw_header with single line break](#ngx.req.raw_header-with-single-line-break)
+    * [ngx_lua and filter finalize problem](#ngx_lua-and-filter-finalize-problem)
 * [Work at UPYUN](#work-at-upyun)
 
 # What is UPYUN
@@ -168,6 +173,35 @@ This Lua library can help OpenResty/ngx_lua users to load config from consul.
 
 This Lua library can help OpenResty/ngx_lua users to dynamically load lua files/scripts.
 
+## Community Contributions
+
+### slice filter and If-Range requests
+
+The semantic of If-Range isn't implemented correctly when using nginx's slice module.
+
+See [here](https://trac.nginx.org/nginx/ticket/1357) for the details.
+
+### autoindex module and request body
+
+The autoindex module doesn't discard the request body explicitly,  
+hence request body will be treated as a pipelined request, and most of time
+another unexpected response will be sent to client.
+
+See [here](https://trac.nginx.org/nginx/ticket/1439) for the details.
+
+### ngx.req.raw_header with single line break
+
+When the header delimiter is `\n`(rather than `\r\n`),  
+`ngx.req.raw_header` cannot get the complete protocol headers in some case.
+
+See [here](https://github.com/openresty/lua-nginx-module/issues/1200) for the details.
+
+### ngx_lua and filter finalize problem
+
+some ngx_lua's APIs(like `ngx.flush`) don't handle the nginx filter finalize correctly,  
+thus the Lua VM may raise some exceptions.
+
+See [here](https://github.com/openresty/lua-nginx-module/issues/1131) for the details.
 
 # Work at UPYUN
 
