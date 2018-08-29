@@ -28,6 +28,7 @@ UPYUN's open source software for OpenResty development.
     * [ctxdump](#ctxdump)
     * [consul](#consul)
     * [load](#load)
+    * [requests](#requests)
   * [Community Contributions](#community-contributions)
     * [slice filter and If-Range requests](#slice-filter-and-if-range-requests)
     * [autoindex module and request body](#autoindex-module-and-request-body)
@@ -172,6 +173,12 @@ This Lua library can help OpenResty/ngx_lua users to load config from consul.
 - github: https://github.com/huangnauh/lua-resty-load
 
 This Lua library can help OpenResty/ngx_lua users to dynamically load lua files/scripts.
+
+### requests
+
+- https://github.com/tokers/lua-resty-requests
+
+Yet Another HTTP library for OpenResty.
 
 ## Community Contributions
 
