@@ -34,6 +34,7 @@ UPYUN's open source software for OpenResty development.
     * [autoindex module and request body](#autoindex-module-and-request-body)
     * [ngx.req.raw_header with single line break](#ngx.req.raw_header-with-single-line-break)
     * [ngx_lua and filter finalize problem](#ngx_lua-and-filter-finalize-problem)
+    * [segmentation fault might occur when SSL renegotiation happens](#segmentation-fault-might-occur-when-SSL-renegotiation-happens)
 * [Work at UPYUN](#work-at-upyun)
 
 # What is UPYUN
@@ -209,6 +210,15 @@ some ngx_lua's APIs(like `ngx.flush`) don't handle the nginx filter finalize cor
 thus the Lua VM may raise some exceptions.
 
 See [here](https://github.com/openresty/lua-nginx-module/issues/1131) for the details.
+
+### segmentation fault might occur when SSL renegotiation happens
+
+When the SSL/TLS handshake reuses a existing session and the connection upgrades to HTTP/2,
+segmentation fault might occur when SSL/TLS renegotiation happens.
+
+This problem only happens under the specific Nginx and OpenSSL combinations.
+
+See [here](https://github.com/openresty/lua-nginx-module/issues/1354) for the details.
 
 # Work at UPYUN
 
