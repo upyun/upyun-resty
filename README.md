@@ -19,6 +19,7 @@ UPYUN's open source software for OpenResty development.
     * [Project Slardar](#project-slardar)
   * [Nginx Modules](#nginx-modules)
     * [base64-nginx-module](#base64-nginx-module)
+    * [zstd-nginx-module](#zstd-nginx-module)
   * [Libraries](#libraries)
     * [checkups](#checkups)
     * [httpipe](#httpipe)
@@ -103,6 +104,12 @@ Slardar is a HTTP load balancer based on Nginx and lua-nginx-module, by which yo
 - github: https://github.com/timebug/base64-nginx-module
 
 This module allows for on-the-fly base64 encode. As same as the standard ngx\_http\_gzip_module.
+
+### zstd-nginx-module
+
+- github: https://github.com/tokers/zstd-nginx-module
+
+Nginx module for the [Zstandard compression](https://facebook.github.io/zstd/).
 
 ## Libraries
 
