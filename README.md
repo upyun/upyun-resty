@@ -30,6 +30,7 @@ UPYUN's open source software for OpenResty development.
     * [consul](#consul)
     * [load](#load)
     * [requests](#requests)
+    * [limit-rate](#limit-rate)
   * [Community Contributions](#community-contributions)
     * [slice filter and If-Range requests](#slice-filter-and-if-range-requests)
     * [autoindex module and request body](#autoindex-module-and-request-body)
@@ -187,6 +188,12 @@ This Lua library can help OpenResty/ngx_lua users to dynamically load lua files/
 - https://github.com/tokers/lua-resty-requests
 
 Yet Another HTTP library for OpenResty.
+
+### limit-rate
+
+- https://github.com/upyun/lua-resty-limit-rate
+
+Lua module for limiting request rate for OpenResty/ngx_lua, using the "token bucket" method.
 
 ## Community Contributions
 
