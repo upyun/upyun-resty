@@ -14,6 +14,7 @@ UPYUN's open source software for OpenResty development.
   * [201608 Guangzhou UPYUN OpenTalk](#201608-guangzhou-upyun-opentalk)
   * [201612 Shenzhen OpenResty Con](#201612-shenzhen-openresty-con)
   * [201712 Hangzhou OpenResty Meetup](#201712-hangzhou-openresty-meetup)
+  * [201811 Hangzhou OpenResty Con](#201811-hangzhou-openresty-con)
 * [Projects](#projects)
   * [Middleware](#middleware)
     * [Project Slardar](#project-slardar)
@@ -87,6 +88,12 @@ OpenResty is a full-fledged web platform by integrating the standard Nginx core,
 - OpenResty 项目性能优化实践 ([Slide](https://iresty.b0.upaiyun.com/HangzhouMeetup201712/OpenResty%20%E9%A1%B9%E7%9B%AE%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5.pdf)) - @tokers
 
 ![](https://iresty.b0.upaiyun.com/assets/OpenResty%20%E9%A1%B9%E7%9B%AE%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5.png_/fw/400)
+
+## 201811 Hangzhou OpenResty Con
+
+- 又拍云 OpenResty/Nginx 服务优化实践 ([Slide](https://github.com/tokers/tech-slides/blob/master/%E5%8F%88%E6%8B%8D%E4%BA%91%E6%9C%8D%E5%8A%A1%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5%E2%80%94%E2%80%94%E5%BC%A0%E8%B6%85.pdf)) - @tokers
+
+![](http://tokers-fs.test.upcdn.net/images/openresty-2018-upyun-alex.png_/fw/400)
 
 # Projects
 
