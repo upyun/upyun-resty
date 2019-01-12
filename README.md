@@ -15,6 +15,7 @@ UPYUN's open source software for OpenResty development.
   * [201612 Shenzhen OpenResty Con](#201612-shenzhen-openresty-con)
   * [201712 Hangzhou OpenResty Meetup](#201712-hangzhou-openresty-meetup)
   * [201811 Hangzhou OpenResty Con](#201811-hangzhou-openresty-con)
+  * [201901 Shenzhen OpenResty x OpenTalk](#201901-shenzhen-openresty-x-opentalk)
 * [Projects](#projects)
   * [Middleware](#middleware)
     * [Project Slardar](#project-slardar)
@@ -93,7 +94,13 @@ OpenResty is a full-fledged web platform by integrating the standard Nginx core,
 
 - 又拍云 OpenResty/Nginx 服务优化实践 ([Slide](https://github.com/tokers/tech-slides/blob/master/%E5%8F%88%E6%8B%8D%E4%BA%91%E6%9C%8D%E5%8A%A1%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5%E2%80%94%E2%80%94%E5%BC%A0%E8%B6%85.pdf)) - @tokers
 
-![](http://tokers-fs.test.upcdn.net/images/openresty-2018-upyun-alex.png_/fw/400)
+![](https://iresty.b0.upaiyun.com/assets/openresty-2018-upyun-alex.png_/fw/400)
+
+## 201901 Shenzhen OpenResty x OpenTalk
+
+- OpenResty 动态流控的几种姿势 ([Slide](https://iresty.b0.upaiyun.com/slides/OpenResty%20%E5%8A%A8%E6%80%81%E6%B5%81%E6%8E%A7%E7%9A%84%E5%87%A0%E7%A7%8D%E5%A7%BF%E5%8A%BF.pdf)) - @timebug
+
+![](https://iresty.b0.upaiyun.com/assets/OpenResty%20%E5%8A%A8%E6%80%81%E6%B5%81%E6%8E%A7%E7%9A%84%E5%87%A0%E7%A7%8D%E5%A7%BF%E5%8A%BF.jpeg_/fw/400)
 
 # Projects
 
