@@ -27,7 +27,6 @@ UPYUN's open source software for OpenResty development.
     * [checkups](#checkups)
     * [httpipe](#httpipe)
     * [redis-ratelimit](#redis-ratelimit)
-    * [17monip](#17monip)
     * [sync](#sync)
     * [ctxdump](#ctxdump)
     * [consul](#consul)
@@ -167,12 +166,6 @@ Lua HTTP client cosocket driver for OpenResty / ngx_lua, interfaces are more fle
 - github: https://github.com/timebug/lua-resty-redis-ratelimit
 
 This lua library is a request processing rate limit module for ngx_lua. It is used to limit the request processing rate per a defined key between multiple NGINX instances. The limitation is done using the "leaky bucket" method.
-
-### 17monip
-
-- github: https://github.com/timebug/lua-resty-17monip
-
-ipip.net (predecessor is 17momip) ipdb parsing library for OpenResty / ngx_lua. IP query based on ipip.net.
 
 ### sync
 
